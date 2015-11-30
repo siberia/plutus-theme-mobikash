@@ -10,6 +10,7 @@ Plutus uses Smarty for parsing templates and rendering the results to the web br
 | /accounts/UUID/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account. |
 | /login                      | login.tpl                 | Login Page -- shown to users before they login           |
 | /settings/autoload          | settings__autoload.tpl    | Configures the users autoload settings.                  |
+| /sms                        | sms.tpl                   | SMS Sending page                                         |
 | /transfer                   | transfer.tpl              | Interaccount transfer                                    |
 
 ## Common Templates
@@ -28,6 +29,7 @@ git clone https://github.com/jacques/common-smarty-templates.git
 | _partials/header-bsfa.tpl  | Includes Bootstrap 3.3.5 and Font Awesome 4.4.0 Stylesheets                        |
 | _partials/header-csrf.tpl  | Used for jquery-rails-ui to have the CSRF token for POST, PUT and DELETE requests. |
 | _partials/header-shims.tpl | Includes HTML5 Shim and Respond.js for IE8                                         |
+| _partials/footer-jqbs.tpl  | Includes Bootstrap 3.3.5 and jQuery 2.1.4 javascript                               |
 
 ## Quick Start Guide
 
