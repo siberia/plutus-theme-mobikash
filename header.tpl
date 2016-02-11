@@ -90,7 +90,6 @@
 {/if}
 {if in_array($smarty.session.user_id, $globals.admins)}
           <li><a href="/admin"><i class="fa fa-cogs"></i> Basecamp</a></li>
-          <li><a href="/progadmin"><i class="fa fa-cog"></i> Program Admin</a></li>
 {/if}
 {if in_array($smarty.session.user_id, $globals.admins)}
             </ul>
